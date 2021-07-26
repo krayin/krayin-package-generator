@@ -1,0 +1,11 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use Illuminate\Database\Eloquent\Model;
+use $PACKAGE$\Contracts\$CLASS$ as $CLASS$Contract;
+
+class $CLASS$ extends Model implements $CLASS$Contract
+{
+    protected $fillable = [];
+}

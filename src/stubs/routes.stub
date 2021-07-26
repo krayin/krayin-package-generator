@@ -1,0 +1,10 @@
+<?php
+
+Route::group([
+        'prefix'        => 'admin/$LOWER_NAME$',
+        'middleware'    => ['web', 'user']
+    ], function () {
+
+        Route::get('', '$CONTROLLER_CLASS_NAME$@index')->name('admin.$LOWER_NAME$.index');
+
+});
